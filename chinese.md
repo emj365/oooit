@@ -4,59 +4,195 @@ title: Chinese
 permalink: /chinese/
 ---
 
-公司简介
--------
+## 公司简介
 
 荷兰欧艺特艺术咨询公司Oooit Art成立于2007年1月，致力于支持有潜力的国际视觉艺术家；促进国家间的艺术和文化交流；协助艺术藏家和艺术爱好者们开拓国际视野。
 
-欧艺特艺术咨询公司Oooit Art的主要提供以下服务：  
-[艺术展览服务](#艺术展览服务)  
-[国际艺术家驻留AiR项目](#国际艺术家驻留AiR项目)  
-[艺术收藏服务](#艺术收藏服务)  
+欧艺特艺术咨询公司Oooit Art的主要提供以下服务：
+
+* [艺术展览服务](#艺术展览服务)  
+* [国际艺术家驻留AiR项目](#国际艺术家驻留AiR项目)  
+* [艺术收藏服务](#艺术收藏服务)  
+
+<div class="back-top-btn"><a href="#">Top↑</a></div>
 
 <a id="艺术展览服务" />
 
-艺术展览服务
-----------
+### 艺术展览服务
 
 欧艺特艺术咨询公司与美术馆，基金会，政府文化部门，画廊，独立策展人等合作，选择有潜质的艺术家并为他们提供国际展示的机会。欧艺特艺术还积极推进和协助美术馆国际展览交流活动，特别是中国和欧洲的美术馆展览和学术交流。  
 
 由欧艺特艺术资助/协助的展览有：
 
-17-5-2014  
-“地球村”（荷兰，德国，丹麦三站艺术展） 国际艺术家群展：Robert Roelink, Zara Alexandrova, 李立宏，等等。
+<table class="list">
+  <tr>
+    <td class="date">17-05-2014</td>
+    <td class="title">“地球村”（荷兰，德国，丹麦三站艺术展） 国际艺术家群展：Robert Roelink, Zara Alexandrova, 李立宏，等等。</td>
+  </tr>
 
-16-4-2014  
-“梦幻水墨”： 马蕙个展。
+  <tr>
+    <td class="date">16-04-2014</td>
+    <td class="title">“梦幻水墨”： 马蕙个展。</td>
+  </tr>
 
-22-6-2013 “过去-现在-未来”（荷兰展）焦兴涛个展。
+  <tr>
+    <td class="date">22-06-2013</td>
+    <td class="title">“过去-现在-未来”（荷兰展）焦兴涛个展。</td>
+  </tr>
 
-2-3-2013 “压抑的童话”艺术群展：金钕，李继开，Gook IM。
+  <tr>
+    <td class="date">02-03-2013</td>
+    <td class="title">“压抑的童话”艺术群展：金钕，李继开，Gook IM。</td>
+  </tr>
 
-6-2-2013 “RAW中国主题艺术展” 群展：马蕙，他们组合（杨晓钢和赖圣予），   Adriaan Rees ，Geert Mul 等等。
+  <tr>
+    <td class="date">06-02-2013</td>
+    <td class="title">“RAW中国主题艺术展” 群展：马蕙，他们组合（杨晓钢和赖圣予），   Adriaan Rees ，Geert Mul 等等。</td>
+  </tr>
 
-21-9-2012 “过去-现在-未来”（英国展）：焦兴涛个展。
+  <tr>
+    <td class="date">21-09-2012</td>
+    <td class="title">21-9-2012 “过去-现在-未来”（英国展）：焦兴涛个展。</td>
+  </tr>
 
-29-6-2012  “共同 · 记忆”双个展 ：他们组合（杨晓钢和赖圣宇）和UNMASK组合（刘展，匡俊，谭天炜）
+  <tr>
+    <td class="date">29-06-2012</td>
+    <td class="title">“共同 · 记忆”双个展 ：他们组合（杨晓钢和赖圣宇）和UNMASK组合（刘展，匡俊，谭天炜）</td>
+  </tr>
 
-7-4-2012 “固定旋律”国际艺术家群展： Esref Armagan, Kristina Benjocki, Irina Birger, Matthijs de Bruijne, 焦兴涛，Caetano Carvalho, Alexis Destoop, 等等。
+  <tr>
+    <td class="date">07-04-2012</td>
+    <td class="title">“固定旋律”国际艺术家群展： Esref Armagan, Kristina Benjocki, Irina Birger, Matthijs de Bruijne, 焦兴涛，Caetano Carvalho, Alexis Destoop, 等等。</td>
+  </tr>
 
-6-6-2011  “天下海牙”雕塑作品群展：隋建国，谷文达，岳敏君，苍鑫，胡项城，焦兴涛，万里雅，刘建华，刘炜，王晋。
+  <tr>
+    <td class="date">06-06-2011</td>
+    <td class="title">“天下海牙”雕塑作品群展：隋建国，谷文达，岳敏君，苍鑫，胡项城，焦兴涛，万里雅，刘建华，刘炜，王晋。</td>
+  </tr>
 
-12-11-2010  “包裹着的欲望” ：焦兴涛个展
+  <tr>
+    <td class="date">12-11-2010</td>
+    <td class="title">“包裹着的欲望” ：焦兴涛个展</td>
+  </tr>
 
-20-3-2010  “倒影”：李继开个展
+  <tr>
+    <td class="date">20-03-2010</td>
+    <td class="title">“倒影”：李继开个展</td>
+  </tr>
 
-4-2-2010  “鹿特丹博览会特别展”群展：杨勋，唐可，等等。
+  <tr>
+    <td class="date">04-02-2010</td>
+    <td class="title">“鹿特丹博览会特别展”群展：杨勋，唐可，等等。</td>
+  </tr>
 
-18-12-2009   “在美利坚”：罗杰个展。
+  <tr>
+    <td class="date">18-12-2009</td>
+    <td class="title">“在美利坚”：罗杰个展。</td>
+  </tr>
 
-2-4-2009   “他们”：他们组合（杨晓钢和赖圣予）作品展。
+  <tr>
+    <td class="date">02-04-2009</td>
+    <td class="title">“他们”：他们组合（杨晓钢和赖圣予）作品展。</td>
+  </tr>
 
-24-5-2008  “囚”：罗杰个展。
+  <tr>
+    <td class="date">24-05-2008</td>
+    <td class="title">“囚”：罗杰个展。</td>
+  </tr>
 
-7-5-2008  “中国现在之二”当代艺术群展：他们组合（杨晓钢和赖圣予），李继开，刘可，华庆，李昌龙，刘峥，等等。
+  <tr>
+    <td class="date">07-05-2008</td>
+    <td class="title">“中国现在之二”当代艺术群展：他们组合（杨晓钢和赖圣予），李继开，刘可，华庆，李昌龙，刘峥，等等。</td>
+  </tr>
 
-29-3-2008  “独自行走”：李继开个展。
+  <tr>
+    <td class="date">29-03-2008</td>
+    <td class="title">“独自行走”：李继开个展。</td>
+  </tr>
 
-12-1-2007  “中国现在”当代艺术群展：李继开，焦兴涛，贾穹，罗杰，李立宏，黄海蓉，陈志光，吴建军，彭嵘。
+  <tr>
+    <td class="date">12-01-2007</td>
+    <td class="title">“中国现在”当代艺术群展：李继开，焦兴涛，贾穹，罗杰，李立宏，黄海蓉，陈志光，吴建军，彭嵘。</td>
+  </tr>
+
+</table>
+
+<div class="back-top-btn"><a href="#">Top↑</a></div>
+
+<a id="国际艺术家驻留AiR项目" />
+
+### 国际艺术家驻留AiR项目
+
+欧艺特艺术的国际驻留项目特别地关注并支持处于创作初期和发展期的有潜力的艺术家群体，在每个国际驻留地点，欧艺特艺术与本地专业驻留机构合作，给艺术家提供：工作室，生活基本设施，展览机会，文化交流活动，艺术职业发展顾问等等。
+
+目前欧艺特艺术公司在以下地点已经开始接受驻留项目申请:
+
+* 中国北京
+* 中国深圳
+* 中国武汉
+* 荷兰阿姆斯特丹
+* 荷兰阿尔克马尔
+
+欧艺特的国际驻留项目为期1-3个月。
+
+申请时间：项目开始前3-6个月。(申请资料包含工作计划，简历和作品图片）
+
+确认时间：2周。
+
+艺术创作形式包括有：绘画，雕塑/装置，影像，陶瓷，版画等等。
+
+<div class="back-top-btn"><a href="#">Top↑</a></div>
+
+<a id="艺术收藏服务" />
+
+### 艺术收藏服务
+
+欧艺特艺术为私人和集团藏家提供有针对性的订制收藏服务，所有藏品来自于专业渠道，按要求提供资深行业专家认证证书。
+
+您可以向欧艺特艺术公司的专家咨询以下艺术品收藏和鉴定服务:
+
+* 中国当代艺术
+* 荷兰当代艺术
+* 德国当代艺术
+* 17世纪荷兰和弗兰德斯大师
+* 19世纪大师
+* 20世纪大师
+
+您也可以选择参加欧艺特艺术组织的艺术讲座和艺术管理课程，这些讲座和课程有一部分会在美术馆，博览会，拍卖行，画廊空间，或者收藏机构的空间内举办，作为参加者您会获得丰富有趣的互动体验。其中部分课程完成后可以获得欧洲著名大学授予的证书。目前开通的课程栏目主要有：
+
+* 艺术品鉴赏
+* 艺术史
+* 艺术品估值
+* 艺术金融和投资管理
+* 国际艺术市场
+
+<div class="back-top-btn"><a href="#">Top↑</a></div>
+
+## 联系我们
+
+<form id="message_form" action="MAILTO:info@oooit.com?Subject=message from oooit" accept-charset="UTF-8" method="post" enctype="text/plain" target="_blank">
+  <p>
+    <label for="contact_im">我是</label>
+    <select id="contact_im" name="im">
+      <option value="">艺术家</option>
+      <option>美术馆负责人</option>
+      <option>画廊负责人</option>
+      <option>策展人</option>
+      <option>藏家</option>
+      <option>国际驻留项目负责人</option>
+    </select>
+    <label for="contact_tel">电话</label>
+    <input id="contact_tel" name="tel"></input>
+    <label for="contact_email">E-mail</label>
+    <input id="contact_email" name="email"></input>
+  </p>
+  <p>
+    <label for="contact_message">留言</label><br />
+    <textarea id="contact_message" name="message"></textarea>
+  </p>
+  <p>
+    <input type="submit" value="发送">
+  </p>
+</form>
+
+<div class="back-top-btn"><a href="#">Top↑</a></div>

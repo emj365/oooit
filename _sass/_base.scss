@@ -202,3 +202,20 @@ pre {
         }
     }
 }
+
+/**
+ * Table
+ */
+table {
+    width: 100%;
+    font-size: 12px;
+
+    td.date {
+        width: 80px;
+        vertical-align: top;
+    }
+
+    td.title {
+        padding-bottom: 10px;
+    }
+}
