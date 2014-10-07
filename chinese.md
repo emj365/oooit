@@ -170,10 +170,10 @@ permalink: /chinese/
 
 ## 联系我们
 
-<form id="message_form" action="MAILTO:info@oooit.com?Subject=message from oooit" accept-charset="UTF-8" method="post" enctype="text/plain" target="_blank">
+<form id="message_form" action="http://uekk0a4c394f.emj365.koding.io:3000/message" method="POST">
   <p>
     <label for="contact_im">我是</label>
-    <select id="contact_im" name="im">
+    <select id="contact_im" name="message[im]">
       <option value="">艺术家</option>
       <option>美术馆负责人</option>
       <option>画廊负责人</option>
@@ -182,17 +182,34 @@ permalink: /chinese/
       <option>国际驻留项目负责人</option>
     </select>
     <label for="contact_tel">电话</label>
-    <input id="contact_tel" name="tel"></input>
+    <input id="contact_tel" name="message[tel]"></input>
     <label for="contact_email">E-mail</label>
-    <input id="contact_email" name="email"></input>
+    <input id="contact_email" name="message[email]"></input>
   </p>
   <p>
     <label for="contact_message">留言</label><br />
-    <textarea id="contact_message" name="message"></textarea>
+    <textarea id="contact_message" name="message[message]"></textarea>
   </p>
   <p>
-    <input type="submit" value="发送">
+    <input id="submit_btn" type="submit" value="发送">
   </p>
 </form>
+<script type="text/javascript">
+$('input#submit_btn').click( function() {
+  $.ajax({
+    url: $('#message_form').attr('action'),
+    type: 'post',
+    data: $('form#message_form').serialize(),
+    success: function(data) {
+               if ( data.trim() === 'ok' ) {
+                 alert('发送成功')
+               } else {
+                 alert('发送失败')
+               }
+             }
+  });
+  return false;
+});
+</script>
 
 <div class="back-top-btn"><a href="#">Top↑</a></div>
