@@ -174,13 +174,15 @@ permalink: /chinese/
   <p>
     <label for="contact_im">我是</label>
     <select id="contact_im" name="message[im]">
-      <option value="">艺术家</option>
+      <option>艺术家</option>
       <option>美术馆负责人</option>
       <option>画廊负责人</option>
       <option>策展人</option>
       <option>藏家</option>
       <option>国际驻留项目负责人</option>
     </select>
+    <label for="contact_name">称呼</label>
+    <input id="contact_name" name="message[name]"></input>
     <label for="contact_tel">电话</label>
     <input id="contact_tel" name="message[tel]"></input>
     <label for="contact_email">E-mail</label>
