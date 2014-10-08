@@ -238,24 +238,5 @@ layout: page
     <input id="submit_btn" type="submit" value="Send">
   </p>
 </form>
-<script type="text/javascript">
-$('input#submit_btn').click( function() {
-  $.ajax({
-    url: $('#message_form').attr('action'),
-    type: 'post',
-    data: $('form#message_form').serialize(),
-    success: function(data) {
-               if ( data.trim() === 'ok' ) {
-                 alert('发送成功')
-               } else {
-                 alert('发送失败')
-               }
-             }
-  }).fail(function() {
-            alert( "发送失败" );
-          });;
-  return false;
-})
-</script>
 
 <div class="back-top-btn"><a href="#top">Top↑</a></div>

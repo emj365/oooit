@@ -163,14 +163,35 @@
 
     {% include footer.html %}
 
-  </body>
-  <script type="text/javascript">
-    $('a').click(function(){
-        $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top
-        }, 200);
+    <script type="text/javascript">
+      // ajax submit form
+      $('input#submit_btn').click( function() {
+        $.ajax({
+          url: $('#message_form').attr('action'),
+          type: 'post',
+          data: $('form#message_form').serialize(),
+          success: function(data) {
+                     if ( data.trim() === 'ok' ) {
+                       alert('Sent')
+                     } else {
+                       alert('Error')
+                     }
+                   }
+        }).fail(function() {
+                  alert( "Error" );
+                });;
         return false;
-    });
-  </script>
+      })
+
+      //smooth scroll
+      $('a').click(function(){
+          $('html, body').animate({
+              scrollTop: $( $.attr(this, 'href') ).offset().top
+          }, 200);
+          return false;
+      });
+    </script>
+
+  </body>
 
 </html>
