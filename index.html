@@ -213,30 +213,36 @@ layout: page
 <h2>Contact</h2>
 
 <form id="message_form" action="http://uekk0a4c394f.emj365.koding.io:3000/message" method="POST">
-  <p>
-    <label for="contact_im"></label>
+  <fieldset>
+    <label for="contact_im">I</label>
     <select id="contact_im" name="message[im]">
-      <option>I am an artist</option>
-      <option>I represent a museum</option>
-      <option>I represent a gallery</option>
-      <option>I am a curator</option>
-      <option>I am a collector</option>
-      <option>I represent a residency center</option>
+      <option>am an artist</option>
+      <option>represent a museum</option>
+      <option>represent a gallery</option>
+      <option>am a curator</option>
+      <option>am a collector</option>
+      <option>represent a residency center</option>
     </select>
+  </fieldset>
+  <fieldset>
     <label for="contact_name">Name</label>
     <input id="contact_name" name="message[name]"></input>
+  </fieldset>
+  <fieldset>
     <label for="contact_tel">Phone</label>
     <input id="contact_tel" name="message[tel]"></input>
+  </fieldset>
+  <fieldset>
     <label for="contact_email">E-mail</label>
     <input id="contact_email" name="message[email]"></input>
-  </p>
-  <p>
-    <label for="contact_message">Message</label><br />
+  </fieldset>
+  <fieldset>
+    <label for="contact_message">Message</label>
     <textarea id="contact_message" name="message[message]"></textarea>
-  </p>
-  <p>
+  </fieldset>
+  <fieldset>
     <input id="submit_btn" type="submit" value="Send">
-  </p>
+  </fieldset>
 </form>
 
 <div class="back-top-btn"><a href="#top">Top↑</a></div>

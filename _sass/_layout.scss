@@ -246,7 +246,37 @@
 .back-top-btn {
     text-align: right;
 }
-#message_form textarea {
-    width: 100%;
-    height: 60px;
+#message_form {
+    input, textarea, select {
+        padding: 5px;
+        font-size: 14px;
+        border: solid 1px #000;
+    }
+
+    fieldset {
+
+        display: block;
+        padding: 5px;
+        border: none;
+
+        textarea {
+            width: 60%;
+            height: 60px;
+        }
+
+        label {
+            padding: 5px;
+            padding-right: 15px;
+            float: left;
+            text-align: right;
+            display: block;
+            width: 80px;
+        }
+
+        #submit_btn {
+            margin-left: 100px;
+        }
+
+    }
+
 }
