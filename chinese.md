@@ -14,7 +14,7 @@ permalink: /chinese/
 * [国际艺术家驻留AiR项目](#国际艺术家驻留AiR项目)  
 * [艺术收藏服务](#艺术收藏服务)  
 
-<div class="back-top-btn"><a href="#">Top↑</a></div>
+<div class="back-top-btn"><a href="#top">Top↑</a></div>
 
 <a id="艺术展览服务" />
 
@@ -117,7 +117,7 @@ permalink: /chinese/
 
 </table>
 
-<div class="back-top-btn"><a href="#">Top↑</a></div>
+<div class="back-top-btn"><a href="#top">Top↑</a></div>
 
 <a id="国际艺术家驻留AiR项目" />
 
@@ -141,7 +141,7 @@ permalink: /chinese/
 
 艺术创作形式包括有：绘画，雕塑/装置，影像，陶瓷，版画等等。
 
-<div class="back-top-btn"><a href="#">Top↑</a></div>
+<div class="back-top-btn"><a href="#top">Top↑</a></div>
 
 <a id="艺术收藏服务" />
 
@@ -166,7 +166,7 @@ permalink: /chinese/
 * 艺术金融和投资管理
 * 国际艺术市场
 
-<div class="back-top-btn"><a href="#">Top↑</a></div>
+<div class="back-top-btn"><a href="#top">Top↑</a></div>
 
 ## 联系我们
 
@@ -214,4 +214,4 @@ $('input#submit_btn').click( function() {
 });
 </script>
 
-<div class="back-top-btn"><a href="#">Top↑</a></div>
+<div class="back-top-btn"><a href="#top">Top↑</a></div>

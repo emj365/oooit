@@ -5,6 +5,8 @@
 
   <body>
 
+    <a id="top" />
+
     {% include header.html %}
 
     <div class="page-content">
@@ -16,5 +18,13 @@
     {% include footer.html %}
 
   </body>
+  <script type="text/javascript">
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 200);
+        return false;
+    });
+  </script>
 
 </html>
