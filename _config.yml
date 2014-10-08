@@ -12,5 +12,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+mailer_url: "http://mailer.jinminjie.com/message"
+
 # Build settings
 markdown: kramdown

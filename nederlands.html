@@ -216,7 +216,7 @@ permalink: /nederlands/
 
 <h2>Contact</h2>
 
-<form id="message_form" action="http://uekk0a4c394f.emj365.koding.io:3000/message" method="POST">
+<form id="message_form" action="{{ site.mailer_url }}" method="POST">
   <fieldset>
     <label for="contact_im">Ik</label>
     <select id="contact_im" name="message[im]">
