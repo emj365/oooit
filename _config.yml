@@ -8,9 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   to assist art collectors and art lovers in finding their way in the international art world.
 keywords: "research, financial supporting, recommendation, art exhibitions co-organization, art publishing services"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.oooit.com" # the base hostname & protocol for your site
 
 mailer_url: "http://mailer.jinminjie.com/message"
 
