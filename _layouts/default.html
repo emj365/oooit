@@ -164,24 +164,54 @@
     {% include footer.html %}
 
     <script type="text/javascript">
-      // ajax submit form
-      $('input#submit_btn').click( function() {
-        $.ajax({
-          url: $('#message_form').attr('action'),
-          type: 'post',
-          data: $('form#message_form').serialize(),
-          success: function(data) {
-                     if ( data.trim() === 'ok' ) {
-                       alert('Sent')
-                     } else {
-                       alert('Error')
+      (function() {
+        // ajax submit form
+        var contact_form = $('form#message_form');
+        var submit_btn = $('input#submit_btn');
+        var validEmail = function(v) {
+          var r = new RegExp("[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?");
+          return (v.match(r) == null) ? false : true;
+        }
+        var showSendError = function() {
+          submit_btn.val('Error').css('background', 'red').css('color', 'white');
+          alert('Sorry, failed to send message.\nPlease contact info@oooit.com.');
+        };
+        var checkFrom = function() {
+          var email = $('#contact_email');
+          if (email.val().trim() === '') {
+            email.next().css('color', 'red');
+            email.focus();
+            return false;
+          }
+          if (!validEmail(email.val())) {
+            email.next().text('please check email format.').css('color', 'red');
+            email.focus();
+            return false;
+          }
+          email.next().text('*').css('color', '');
+          return true;
+        };
+
+        contact_form.submit(function() {
+          if (!checkFrom()) {
+            return false;
+          }
+          submit_btn.val('Sending...').css('background', 'yellow').attr('disabled', 'disabled');
+          $.ajax({
+            url:  contact_form.attr('action'),
+            type: 'post',
+            data: contact_form.serialize(),
+            success: function(data) {
+                       if ( data.trim() === 'ok' ) {
+                         submit_btn.val('Sent').css('background', 'none');
+                       } else {
+                         showSendError();
+                       }
                      }
-                   }
-        }).fail(function() {
-                  alert( "Error" );
-                });;
-        return false;
-      })
+          }).fail(showSendError);
+          return false;
+        });
+      })();
 
       //smooth scroll
       $('a').click(function(){
