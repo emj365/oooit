@@ -119,7 +119,7 @@ jQuery(document).ready(function ($) {
       data: contact_form.serialize(),
       success: function(data) {
                  if ( data.trim() === 'ok' ) {
-                   submit_btn.val('Sent').css('background', 'none');
+                   submit_btn.val('Sent').css('background', 'LightBlue');
                  } else {
                    showSendError();
                  }
