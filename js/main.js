@@ -2,18 +2,15 @@
  * Gallery
  */
 $(document).ready(function() {
-  var opt = {
-    delegate: 'a', // child items selector, by clicking on it popup will open
-    type: 'image',
-    // other options
-    gallery: {
-      // options for gallery
-      enabled: true
-    }
-  }
-  $('.gallery1').magnificPopup(opt);
-  $('.gallery2').magnificPopup(opt);
-  $('.gallery3').magnificPopup(opt);
+  $('.gallery').each(function() { // the containers for all your galleries
+    $(this).magnificPopup({
+        delegate: 'a', // the selector for gallery item
+        type: 'image',
+        gallery: {
+          enabled:true
+        }
+    });
+  });
 });
 
 /***
