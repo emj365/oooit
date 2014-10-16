@@ -5,32 +5,42 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    height: 67px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    .wrapper {
+      position: relative;
+    }
 }
 
 .site-title {
+    position: absolute;
+    left: $spacing-unit;
+    top: 0;
     background: url(../img/logo.gif);
     width: 67px;
     height: 67px;
     text-indent: -999em;
+}
 
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+#lang {
+  float: right;
+  list-style: none;
+  margin: 0;
+  li {
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+  }
+  li a {
+    font-size: small;
+    display: block;
+    padding-left: 10px;
+  }
 }
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 46px;
 
     .menu-icon {
         display: none;
