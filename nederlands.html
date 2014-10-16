@@ -212,14 +212,14 @@ permalink: /nederlands/
 
 <form id="message_form" action="{{ site.mailer_url }}" method="POST">
   <fieldset>
-    <label for="contact_im">Ik</label>
+    <label for="contact_im"></label>
     <select id="contact_im" name="message[im]">
-      <option>ben kunstenaar</option>
-      <option>ben werkzaam bij een museum</option>
-      <option>ben werkzaam bij een galerie</option>
-      <option>ben conservator</option>
-      <option>ben verzamelaar</option>
-      <option>vertegenwoordig een AiR project</option>
+      <option>Ik ben kunstenaar</option>
+      <option>Ik ben werkzaam bij een museum</option>
+      <option>Ik ben werkzaam bij een galerie</option>
+      <option>Ik ben conservator</option>
+      <option>Ik ben verzamelaar</option>
+      <option>Ik vertegenwoordig een AiR project</option>
     </select>
   </fieldset>
   <fieldset>
@@ -228,8 +228,9 @@ permalink: /nederlands/
     <span>*</span>
   </fieldset>
   <fieldset>
-    <label for="contact_name">Name</label>
-    <input id="contact_name" name="message[name]" />
+    <label for="contact_name">Naam</label>
+    <input id="contact_name" name="message[name]" required />
+    <span>*</span>
   </fieldset>
   <fieldset>
     <label for="contact_tel">Telefoon</label>

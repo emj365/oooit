@@ -210,14 +210,14 @@ layout: page
 
 <form id="message_form" action="{{ site.mailer_url }}" method="POST">
   <fieldset>
-    <label for="contact_im">I</label>
+    <label for="contact_im"></label>
     <select id="contact_im" name="message[im]">
-      <option>am an artist</option>
-      <option>represent a museum</option>
-      <option>represent a gallery</option>
-      <option>am a curator</option>
-      <option>am a collector</option>
-      <option>represent a residency center</option>
+      <option>I am an artist</option>
+      <option>I represent a museum</option>
+      <option>I represent a gallery</option>
+      <option>I am a curator</option>
+      <option>I am a collector</option>
+      <option>I represent a residency center</option>
     </select>
   </fieldset>
   <fieldset>
@@ -227,7 +227,8 @@ layout: page
   </fieldset>
   <fieldset>
     <label for="contact_name">Name</label>
-    <input id="contact_name" name="message[name]" />
+    <input id="contact_name" name="message[name]" required />
+    <span>*</span>
   </fieldset>
   <fieldset>
     <label for="contact_tel">Phone</label>

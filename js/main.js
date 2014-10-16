@@ -30,9 +30,15 @@ jQuery(document).ready(function ($) {
   };
   var checkFrom = function() {
     var email = $('#contact_email');
+    var name = $('#contact_name');
     if (email.val().trim() === '') {
       email.next().css('color', 'red');
       email.focus();
+      return false;
+    }
+    if (name.val().trim() === '') {
+      name.next().css('color', 'red');
+      name.focus();
       return false;
     }
     if (!validEmail(email.val())) {
