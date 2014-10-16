@@ -277,10 +277,13 @@
             text-align: right;
             display: block;
             width: 120px;
+            @include media-query($on-palm) {
+              text-align: left;
+            }
         }
 
         #submit_btn {
-            margin-left: 140px;
+            margin-left: 100px;
         }
 
     }
