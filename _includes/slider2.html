@@ -1,7 +1,27 @@
-<div class="gallery">
+<!-- SlidesJS Required: Start Slides -->
+<!-- The container is used to define the width of the slideshow -->
+<div class="container">
+  <div id="slides2">
   {% for i in (1..10) %}
-  <a href="../img/sliders2/{{i}}.jpg">
-    <img src="../img/sliders2/thumb-{{i}}.jpg" alt="" />
-  </a>
+    <img src="../img/sliders2/{{i}}.jpg" alt="" />
   {% endfor %}
+  </div>
 </div>
+<!-- End SlidesJS Required: Start Slides -->
+
+<!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+<script>
+  $(function() {
+    $('#slides2').slidesjs({
+      width: 720,
+      height: 480,
+      play: {
+        active: true,
+        auto: true,
+        interval: 4000,
+        swap: true
+      }
+    });
+  });
+</script>
+<!-- End SlidesJS Required -->
