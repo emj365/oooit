@@ -286,6 +286,15 @@
             margin-left: 140px;
         }
 
+        @include media-query($on-palm) {
+          label {
+            float: none;
+            text-align: left;
+          }
+          #submit_btn {
+            margin-left: 0px;
+          }
+        }
     }
 
 }
