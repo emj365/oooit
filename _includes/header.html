@@ -4,14 +4,6 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <ul id="lang">
-      <li><a href="#">English</a></li>
-      <li><a href="#">中文简体</a></li>
-      <li><a href="#">Nederlands </a></li>
-      <li><a class="page-link" href="#contact"><img src="/img/email-24.png" alt="contact" /></a></li>
-    </ul>
-    <div class="clear-fix"></div>
-
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -28,6 +20,7 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        <a class="page-link" href="#contact"><img src="/img/email-24.png" alt="contact" /></a>
       </div>
     </nav>
 
